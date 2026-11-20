@@ -1,0 +1,34 @@
+# Private planning and internship records (kept outside this repository)
+prompt.md
+AGENTS.md
+project-plan.md
+.internship-private/
+.ai-notes/
+*_ai_notes.md
+
+# Local environment and secrets
+.env
+.env.*
+!.env.example
+
+# Runtime logs
+*.log
+logs/
+log/
+
+# Build output and dependencies
+**/bin/
+**/obj/
+node_modules/
+dist/
+build/
+coverage/
+
+# Local editor and operating-system files
+.vs/
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
+*.user
+*.suo
