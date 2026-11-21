@@ -19,4 +19,21 @@ Open `http://localhost:5100/api/health`. A running API returns:
 ```
 
 This endpoint checks that the API responds; it does not check a database connection.
-Database setup, authentication, and the frontend are not implemented yet.
+Database setup and authentication are not implemented yet.
+
+## Frontend setup
+
+Requires Node.js 20.19+ or 22.12+ and npm. The frontend uses React JSX,
+Vite, and plain CSS. From the repository root:
+
+```powershell
+cd frontend
+npm ci
+npm run dev
+```
+
+Open the local URL printed by Vite (normally `http://localhost:5173`).
+The current page is a starter screen; account and task screens are not implemented yet.
+
+Build the production assets with `npm run build`. Use `npm ci` to install
+the exact dependency versions recorded in `frontend/package-lock.json`.
